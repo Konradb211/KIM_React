@@ -1,0 +1,22 @@
+.navMobile {
+	position: fixed;
+	width: 100%;
+}
+
+.navMobile__icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.icon {
+	height: 3.7rem;
+	cursor: pointer;
+}
+
+.navMobile__links {
+	display: none;
+	justify-content: space-around;
+	align-items: center;
+}
